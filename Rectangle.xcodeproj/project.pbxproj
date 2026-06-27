@@ -52,7 +52,6 @@
 		9818E01A28B63C49004AA524 /* EighthsCompoundCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818E01928B63C49004AA524 /* EighthsCompoundCalculation.swift */; };
 		98192DDA270F606C00015E66 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98192DD9270F606C00015E66 /* Debounce.swift */; };
 		98192DDE2717201100015E66 /* ReverseAllManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98192DDD2717201000015E66 /* ReverseAllManager.swift */; };
-		981F27D12340E3E1006CD263 /* InternetAccessPolicy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981F27D02340E3E1006CD263 /* InternetAccessPolicy.plist */; };
 		9821402122B3884600ABFB3F /* BottomHalfCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821402022B3884600ABFB3F /* BottomHalfCalculation.swift */; };
 		9821402322B3886100ABFB3F /* CenterCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821402222B3886100ABFB3F /* CenterCalculation.swift */; };
 		9821402522B3887200ABFB3F /* MaximizeCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821402422B3887200ABFB3F /* MaximizeCalculation.swift */; };
@@ -66,7 +65,7 @@
 		9821403F22B3EBD900ABFB3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821403E22B3EBD900ABFB3F /* AppDelegate.swift */; };
 		9821404322B3EBDA00ABFB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9821404222B3EBDA00ABFB3F /* Assets.xcassets */; };
 		9821404622B3EBDA00ABFB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821404422B3EBDA00ABFB3F /* Main.storyboard */; };
-		9821405B22B3ECCA00ABFB3F /* RectangleLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9821405B22B3ECCA00ABFB3F /* SafeRectangleLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9821403C22B3EBD900ABFB3F /* SafeRectangleLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9821405E22B3ED3600ABFB3F /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821405D22B3ED3600ABFB3F /* ServiceManagement.framework */; };
 		9821406022B3EFB200ABFB3F /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821405F22B3EFB200ABFB3F /* Defaults.swift */; };
 		9824700D22AF9B7D0037B409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824700C22AF9B7D0037B409 /* AppDelegate.swift */; };
@@ -96,7 +95,6 @@
 		985B9BF822BB6F5100A2E8F0 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 985B9BF622BB6F5000A2E8F0 /* MessageView.xib */; };
 		985B9BF922BB6F5100A2E8F0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B9BF722BB6F5000A2E8F0 /* MessageView.swift */; };
 		9877B63A29C8AC0E00F02D74 /* MASShortcut in Frameworks */ = {isa = PBXBuildFile; productRef = 9877B63929C8AC0E00F02D74 /* MASShortcut */; };
-		9877B63D29C8AC3600F02D74 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 9877B63C29C8AC3600F02D74 /* Sparkle */; };
 		988D066122EB4C7C004EABD7 /* FirstThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D066022EB4C7C004EABD7 /* FirstThirdCalculation.swift */; };
 		988D066322EB4CA5004EABD7 /* FirstTwoThirdsCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D066222EB4CA5004EABD7 /* FirstTwoThirdsCalculation.swift */; };
 		988D066522EB4CB6004EABD7 /* CenterThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D066422EB4CB5004EABD7 /* CenterThirdCalculation.swift */; };
@@ -210,7 +208,7 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				9821405B22B3ECCA00ABFB3F /* RectangleLauncher.app in CopyFiles */,
+				9821405B22B3ECCA00ABFB3F /* SafeRectangleLauncher.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +263,6 @@
 		9818E01928B63C49004AA524 /* EighthsCompoundCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthsCompoundCalculation.swift; sourceTree = "<group>"; };
 		98192DD9270F606C00015E66 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
 		98192DDD2717201000015E66 /* ReverseAllManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAllManager.swift; sourceTree = "<group>"; };
-		981F27D02340E3E1006CD263 /* InternetAccessPolicy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InternetAccessPolicy.plist; sourceTree = "<group>"; };
 		9821402022B3884600ABFB3F /* BottomHalfCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHalfCalculation.swift; sourceTree = "<group>"; };
 		9821402222B3886100ABFB3F /* CenterCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCalculation.swift; sourceTree = "<group>"; };
 		9821402422B3887200ABFB3F /* MaximizeCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizeCalculation.swift; sourceTree = "<group>"; };
@@ -276,7 +273,7 @@
 		9821403222B38A1B00ABFB3F /* UpperLeftCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperLeftCalculation.swift; sourceTree = "<group>"; };
 		9821403422B38A2B00ABFB3F /* UpperRightCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperRightCalculation.swift; sourceTree = "<group>"; };
 		9821403622B3D16700ABFB3F /* MaximizeHeightCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizeHeightCalculation.swift; sourceTree = "<group>"; };
-		9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821403C22B3EBD900ABFB3F /* SafeRectangleLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeRectangleLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9821403E22B3EBD900ABFB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9821404222B3EBDA00ABFB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9821404522B3EBDA00ABFB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -285,7 +282,7 @@
 		9821405D22B3ED3600ABFB3F /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		9821405F22B3EFB200ABFB3F /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		9821552627BFFB13002523EC /* Rectangle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rectangle-Bridging-Header.h"; sourceTree = "<group>"; };
-		9824700922AF9B7D0037B409 /* Rectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9824700922AF9B7D0037B409 /* SafeRectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeRectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9824700C22AF9B7D0037B409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9824701022AF9B7E0037B409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9824701322AF9B7E0037B409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -425,7 +422,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9877B63A29C8AC0E00F02D74 /* MASShortcut in Frameworks */,
-				9877B63D29C8AC3600F02D74 /* Sparkle in Frameworks */,
 				9821405E22B3ED3600ABFB3F /* ServiceManagement.framework in Frameworks */,
 				12D896200936C0DE9FF41FB4 /* (null) in Frameworks */,
 			);
@@ -658,9 +654,9 @@
 		9824700A22AF9B7D0037B409 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9824700922AF9B7D0037B409 /* Rectangle.app */,
+				9824700922AF9B7D0037B409 /* SafeRectangle.app */,
 				9824701B22AF9B7E0037B409 /* RectangleTests.xctest */,
-				9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */,
+				9821403C22B3EBD900ABFB3F /* SafeRectangleLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -673,7 +669,6 @@
 				482E9E412EB1528D00D7928A /* AppIcon.icon */,
 				9824701222AF9B7E0037B409 /* Main.storyboard */,
 				9824701522AF9B7E0037B409 /* Info.plist */,
-				981F27D02340E3E1006CD263 /* InternetAccessPolicy.plist */,
 				9821552627BFFB13002523EC /* Rectangle-Bridging-Header.h */,
 				9808018523D05C0B0077774A /* RectangleRelease.entitlements */,
 				9824701622AF9B7E0037B409 /* Rectangle.entitlements */,
@@ -790,8 +785,8 @@
 			dependencies = (
 			);
 			name = RectangleLauncher;
-			productName = RectangleLauncher;
-			productReference = 9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */;
+			productName = SafeRectangleLauncher;
+			productReference = 9821403C22B3EBD900ABFB3F /* SafeRectangleLauncher.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9824700822AF9B7D0037B409 /* Rectangle */ = {
@@ -810,10 +805,9 @@
 			name = Rectangle;
 			packageProductDependencies = (
 				9877B63929C8AC0E00F02D74 /* MASShortcut */,
-				9877B63C29C8AC3600F02D74 /* Sparkle */,
 			);
-			productName = Rectangle;
-			productReference = 9824700922AF9B7D0037B409 /* Rectangle.app */;
+			productName = SafeRectangle;
+			productReference = 9824700922AF9B7D0037B409 /* SafeRectangle.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9824701A22AF9B7E0037B409 /* RectangleTests */ = {
@@ -914,8 +908,7 @@
 			);
 			mainGroup = 9824700022AF9B7D0037B409;
 			packageReferences = (
-				9877B63829C8AC0E00F02D74 /* XCRemoteSwiftPackageReference "MASShortcut" */,
-				9877B63B29C8AC3600F02D74 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				9877B63829C8AC0E00F02D74 /* XCLocalSwiftPackageReference "MASShortcut" */,
 			);
 			productRefGroup = 9824700A22AF9B7D0037B409 /* Products */;
 			projectDirPath = "";
@@ -945,7 +938,6 @@
 				985B9BF822BB6F5100A2E8F0 /* MessageView.xib in Resources */,
 				9824701122AF9B7E0037B409 /* Assets.xcassets in Resources */,
 				9824701422AF9B7E0037B409 /* Main.storyboard in Resources */,
-				981F27D12340E3E1006CD263 /* InternetAccessPolicy.plist in Resources */,
 				98987AA42391890400BE72C4 /* LogViewer.storyboard in Resources */,
 				482E9E422EB1528D00D7928A /* AppIcon.icon in Resources */,
 			);
@@ -1204,8 +1196,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangleLauncher;
+					PRODUCT_MODULE_NAME = RectangleLauncher;
+					PRODUCT_NAME = SafeRectangleLauncher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1232,8 +1225,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangleLauncher;
+					PRODUCT_MODULE_NAME = RectangleLauncher;
+					PRODUCT_NAME = SafeRectangleLauncher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1390,8 +1384,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 0.96;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangle;
+					PRODUCT_MODULE_NAME = Rectangle;
+					PRODUCT_NAME = SafeRectangle;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
@@ -1423,8 +1418,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 0.96;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangle;
+					PRODUCT_MODULE_NAME = Rectangle;
+					PRODUCT_NAME = SafeRectangle;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
@@ -1449,11 +1445,11 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rectangle.app/Contents/MacOS/Rectangle";
+					TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeRectangle.app/Contents/MacOS/SafeRectangle";
 			};
 			name = Debug;
 		};
@@ -1474,11 +1470,11 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
+					PRODUCT_BUNDLE_IDENTIFIER = com.bernawil.SafeRectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rectangle.app/Contents/MacOS/Rectangle";
+					TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeRectangle.app/Contents/MacOS/SafeRectangle";
 			};
 			name = Release;
 		};
@@ -1524,34 +1520,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9877B63829C8AC0E00F02D74 /* XCRemoteSwiftPackageReference "MASShortcut" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rxhanson/MASShortcut";
-			requirement = {
-				kind = revision;
-				revision = 2f9fbb3f959b7a683c6faaf9638d22afad37a235;
-			};
-		};
-		9877B63B29C8AC3600F02D74 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
+		9877B63829C8AC0E00F02D74 /* XCLocalSwiftPackageReference "MASShortcut" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/MASShortcut;
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		9877B63929C8AC0E00F02D74 /* MASShortcut */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9877B63829C8AC0E00F02D74 /* XCRemoteSwiftPackageReference "MASShortcut" */;
+			package = 9877B63829C8AC0E00F02D74 /* XCLocalSwiftPackageReference "MASShortcut" */;
 			productName = MASShortcut;
-		};
-		9877B63C29C8AC3600F02D74 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9877B63B29C8AC3600F02D74 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

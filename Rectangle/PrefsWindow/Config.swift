@@ -29,7 +29,7 @@ extension Defaults {
             codableDefaults[exportableDefault.key] = exportableDefault.toCodable()
         }
                 
-        let config = Config(bundleId: "com.knollsoft.Rectangle",
+        let config = Config(bundleId: "com.bernawil.SafeRectangle",
                             version: version,
                             shortcuts: shortcuts,
                             defaults: codableDefaults)
@@ -91,14 +91,14 @@ extension Defaults {
     
     static func loadFromSupportDir() {
         if let rectangleSupportURL = getSupportDir()?
-            .appendingPathComponent("Rectangle", isDirectory: true) {
+            .appendingPathComponent("SafeRectangle", isDirectory: true) {
             
-            let configURL = rectangleSupportURL.appendingPathComponent("RectangleConfig.json")
+            let configURL = rectangleSupportURL.appendingPathComponent("SafeRectangleConfig.json")
                         
             let exists = try? configURL.checkResourceIsReachable()
             if exists == true {
                 // Defense-in-depth: any process running as this user can drop
-                // a RectangleConfig.json in Application Support and have it
+                // a SafeRectangleConfig.json in Application Support and have it
                 // silently applied on next launch, overwriting shortcuts and
                 // defaults. Require the user to confirm before loading.
                 //
@@ -120,16 +120,16 @@ extension Defaults {
                 
                 guard isSafe else {
                     AlertUtil.oneButtonAlert(
-                        question: "Refused to load RectangleConfig.json",
-                        text: "The configuration file at \(path) is a symlink or world-writable. Rectangle has refused to load it. Remove the file or fix its permissions and try again."
+                        question: "Refused to load SafeRectangleConfig.json",
+                        text: "The configuration file at \(path) is a symlink or world-writable. SafeRectangle has refused to load it. Remove the file or fix its permissions and try again."
                     )
                     try? fm.removeItem(at: configURL)
                     return
                 }
                 
                 let response = AlertUtil.twoButtonAlert(
-                    question: "Apply Rectangle configuration?",
-                    text: "A configuration file was found at \(path). Applying it will overwrite your current Rectangle shortcuts and preferences. Apply now?",
+                    question: "Apply SafeRectangle configuration?",
+                    text: "A configuration file was found at \(path). Applying it will overwrite your current SafeRectangle shortcuts and preferences. Apply now?",
                     confirmText: "Apply",
                     cancelText: "Discard"
                 )
@@ -140,14 +140,14 @@ extension Defaults {
                 
                 load(fileUrl: configURL)
                 do {
-                    let newFilename = "RectangleConfig\(timestamp()).json"
+                    let newFilename = "SafeRectangleConfig\(timestamp()).json"
                     
                     try fm.moveItem(atPath: configURL.path, toPath: rectangleSupportURL.appendingPathComponent(newFilename).path)
                 } catch {
                     do {
                         try fm.removeItem(at: configURL)
                     } catch {
-                        AlertUtil.oneButtonAlert(question: "Error after loading from Support Dir", text: "Unable to rename/remove RectangleConfig.json from \(rectangleSupportURL) after loading.")
+                        AlertUtil.oneButtonAlert(question: "Error after loading from Support Dir", text: "Unable to rename/remove SafeRectangleConfig.json from \(rectangleSupportURL) after loading.")
                     }
                 }
             }

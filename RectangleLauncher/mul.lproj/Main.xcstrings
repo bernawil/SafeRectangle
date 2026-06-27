@@ -560,7 +560,7 @@
       }
     },
     "1Xt-HY-uBw.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"RectangleLauncher\"; ObjectID = \"1Xt-HY-uBw\";",
+      "comment" : "Class = \"NSMenuItem\"; title = \"SafeRectangleLauncher\"; ObjectID = \"1Xt-HY-uBw\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -572,175 +572,175 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         }
       }
@@ -2048,7 +2048,7 @@
       }
     },
     "4sb-4s-VLi.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"Quit RectangleLauncher\"; ObjectID = \"4sb-4s-VLi\";",
+      "comment" : "Class = \"NSMenuItem\"; title = \"Quit SafeRectangleLauncher\"; ObjectID = \"4sb-4s-VLi\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -2060,181 +2060,181 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ukončit RectangleLauncher"
+            "value" : "Ukončit SafeRectangleLauncher"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Schließen"
+            "value" : "SafeRectangleLauncher Schließen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keluar RectangleLauncher"
+            "value" : "Keluar SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Išeiti iš RectangleLauncher"
+            "value" : "Išeiti iš SafeRectangleLauncher"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avslutt RectangleLauncher"
+            "value" : "Avslutt SafeRectangleLauncher"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avslutt RectangleLauncher"
+            "value" : "Avslutt SafeRectangleLauncher"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fechar RectangleLauncher"
+            "value" : "Fechar SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sair do RectangleLauncher"
+            "value" : "Sair do SafeRectangleLauncher"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ukončiť RectangleLauncher"
+            "value" : "Ukončiť SafeRectangleLauncher"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit RectangleLauncher"
+            "value" : "Quit SafeRectangleLauncher"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thoát RectangleLauncher"
+            "value" : "Thoát SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出RectangleLauncher"
+            "value" : "退出SafeRectangleLauncher"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "結束RectangleLauncher"
+            "value" : "結束SafeRectangleLauncher"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "結束RectangleLauncher"
+            "value" : "結束SafeRectangleLauncher"
           }
         }
       }
     },
     "5kV-Vb-QxS.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"About RectangleLauncher\"; ObjectID = \"5kV-Vb-QxS\";",
+      "comment" : "Class = \"NSMenuItem\"; title = \"About SafeRectangleLauncher\"; ObjectID = \"5kV-Vb-QxS\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -2246,175 +2246,175 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O aplikaci RectangleLauncher"
+            "value" : "O aplikaci SafeRectangleLauncher"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Über RectangleLauncher"
+            "value" : "Über SafeRectangleLauncher"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tentang RectangleLauncher"
+            "value" : "Tentang SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apie RectangleLauncher"
+            "value" : "Apie SafeRectangleLauncher"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Om RectangleLauncher"
+            "value" : "Om SafeRectangleLauncher"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Om RectangleLauncher"
+            "value" : "Om SafeRectangleLauncher"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sobre o RectangleLauncher"
+            "value" : "Sobre o SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sobre o RectangleLauncher"
+            "value" : "Sobre o SafeRectangleLauncher"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O aplikácii RectangleLauncher"
+            "value" : "O aplikácii SafeRectangleLauncher"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About RectangleLauncher"
+            "value" : "About SafeRectangleLauncher"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Giới thiệu RectangleLauncher"
+            "value" : "Giới thiệu SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "关于RectangleLauncher"
+            "value" : "关于SafeRectangleLauncher"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關於RectangleLauncher"
+            "value" : "關於SafeRectangleLauncher"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關於RectangleLauncher"
+            "value" : "關於SafeRectangleLauncher"
           }
         }
       }
@@ -8372,7 +8372,7 @@
       }
     },
     "FKE-Sm-Kum.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"RectangleLauncher Help\"; ObjectID = \"FKE-Sm-Kum\";",
+      "comment" : "Class = \"NSMenuItem\"; title = \"SafeRectangleLauncher Help\"; ObjectID = \"FKE-Sm-Kum\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -8384,175 +8384,175 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher nápověda"
+            "value" : "SafeRectangleLauncher nápověda"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Hilfe"
+            "value" : "SafeRectangleLauncher Hilfe"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bantuan RectangleLauncher"
+            "value" : "Bantuan SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher pagalba"
+            "value" : "SafeRectangleLauncher pagalba"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher-hjelp"
+            "value" : "SafeRectangleLauncher-hjelp"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher-hjelp"
+            "value" : "SafeRectangleLauncher-hjelp"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda do RectangleLauncher"
+            "value" : "Ajuda do SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda do RectangleLauncer"
+            "value" : "Ajuda do SafeRectangleLauncer"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher nápoveda"
+            "value" : "SafeRectangleLauncher nápoveda"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Help"
+            "value" : "SafeRectangleLauncher Help"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trợ giúp của RectangleLauncher"
+            "value" : "Trợ giúp của SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher帮助"
+            "value" : "SafeRectangleLauncher帮助"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher輔助說明"
+            "value" : "SafeRectangleLauncher輔助說明"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher輔助說明"
+            "value" : "SafeRectangleLauncher輔助說明"
           }
         }
       }
@@ -15254,7 +15254,7 @@
       }
     },
     "Olw-nP-bQN.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"Hide RectangleLauncher\"; ObjectID = \"Olw-nP-bQN\";",
+      "comment" : "Class = \"NSMenuItem\"; title = \"Hide SafeRectangleLauncher\"; ObjectID = \"Olw-nP-bQN\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -15266,175 +15266,175 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skrýt RectangleLauncher"
+            "value" : "Skrýt SafeRectangleLauncher"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher Verstecken"
+            "value" : "SafeRectangleLauncher Verstecken"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sembunyikan RectangleLauncher"
+            "value" : "Sembunyikan SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Slėpti RectangleLauncher"
+            "value" : "Slėpti SafeRectangleLauncher"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skjul RectangleLauncher"
+            "value" : "Skjul SafeRectangleLauncher"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gøym RectangleLauncher"
+            "value" : "Gøym SafeRectangleLauncher"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocultar RectangleLauncher"
+            "value" : "Ocultar SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esconder RectangleLauncher"
+            "value" : "Esconder SafeRectangleLauncher"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skryť RectangleLauncher"
+            "value" : "Skryť SafeRectangleLauncher"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide RectangleLauncher"
+            "value" : "Hide SafeRectangleLauncher"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ẩn RectangleLauncher"
+            "value" : "Ẩn SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隐藏RectangleLauncher"
+            "value" : "隐藏SafeRectangleLauncher"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隱藏RectangleLauncher"
+            "value" : "隱藏SafeRectangleLauncher"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隱藏RectangleLauncher"
+            "value" : "隱藏SafeRectangleLauncher"
           }
         }
       }
@@ -19532,7 +19532,7 @@
       }
     },
     "uQy-DD-JDr.title" : {
-      "comment" : "Class = \"NSMenu\"; title = \"RectangleLauncher\"; ObjectID = \"uQy-DD-JDr\";",
+      "comment" : "Class = \"NSMenu\"; title = \"SafeRectangleLauncher\"; ObjectID = \"uQy-DD-JDr\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
@@ -19544,175 +19544,175 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ca-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "nn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         },
         "zh-Hant-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RectangleLauncher"
+            "value" : "SafeRectangleLauncher"
           }
         }
       }

@@ -1,22 +1,36 @@
 # Contributing
 
-## Feature Requests
+SafeRectangle is a local-only fork focused on keeping Rectangle-style window
+management without updater, telemetry, external URL command, or remote package
+fetch behavior.
 
-Rectangle is not accepting any new feature requests at this time, sorry. You can file a feature request for a feature that you plan to implement and submit a pull request for, so that the feature can be reviewed and you will know ahead of time if the feature will be rejected.  
+## Project Priorities
+
+- Keep the app local and quiet.
+- Do not add telemetry, analytics, crash-report uploaders, or remote update
+  frameworks.
+- Do not add URL schemes or external command handlers.
+- Keep MASShortcut vendored unless there is a deliberate review of a
+  replacement.
+- Preserve the MIT license and upstream attribution.
 
 ## Bugs
 
-Please search through the existing issues, open and closed, before filing a new bug.
-Add the version of Rectangle, the version of the OS, and screenshots or videos as necessary.
+Please include:
 
-## Coding Style
+- SafeRectangle version/build
+- macOS version
+- whether Accessibility permission is enabled
+- the exact shortcut or window action involved
+- screenshots or screen recordings if they clarify the issue
 
-Please match the existing coding style as much as possible.
+## Code Style
+
+Match the existing style and keep changes narrowly scoped. Internal source
+symbols may still use Rectangle names where they are not user-facing; visible
+app text and documentation should use SafeRectangle.
 
 ## License
 
-By contributing to Rectangle you agree that your contributions will be licensed under its MIT license.
-
-## Incentives
-
-Logic from Rectangle is used in the [Multitouch](https://multitouch.app) app. The [Rectangle Pro](https://rectangleapp.com/pro) app is entirely built on top of Rectangle. If you contribute significant code or localizations that get merged into Rectangle, you get a free license of Multitouch or Rectangle Pro. Contributors to Sparkle, MASShortcut, or Spectacle can also receive free Multitouch or Rectangle Pro licenses (just send me an email).
+By contributing to SafeRectangle you agree that your contributions are licensed
+under the MIT license used by this repository.

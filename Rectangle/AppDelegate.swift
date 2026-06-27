@@ -1,24 +1,18 @@
 /// AppDelegate.swift
 
 import Cocoa
-import Sparkle
 import ServiceManagement
 import os.log
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    static let launcherAppId = "com.knollsoft.RectangleLauncher"
+    static let launcherAppId = "com.bernawil.SafeRectangleLauncher"
 
     private let accessibilityAuthorization = AccessibilityAuthorization()
     private let statusItem = RectangleStatusItem.instance
     static let windowHistory = WindowHistory()
-    var updaterController: SPUStandardUpdaterController!
-    var hasPendingUpdate = false {
-        didSet {
-            Notification.Name.updateAvailability.post()
-        }
-    }
+    let hasPendingUpdate = false
 
     private var shortcutManager: ShortcutManager!
     private var windowManager: WindowManager!
@@ -76,13 +70,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         addWindowActionMenuItems()
 
         NotificationCenter.default.addObserver(self, selector: #selector(rebuildMenu), name: .showAdditionalSizesInMenuChanged, object: nil)
-
-        updaterController = SPUStandardUpdaterController(updaterDelegate: nil, userDriverDelegate: self)
-        
-        checkAutoCheckForUpdates()
+        updatesMenuItem.isEnabled = false
+        updatesMenuItem.title = "Updates Disabled".localized
         
         Notification.Name.configImported.onPost(using: { _ in
-            self.checkAutoCheckForUpdates()
             self.statusItem.refreshVisibility()
             self.applicationToggle.reloadFromDefaults()
             self.shortcutManager.reloadFromDefaults()
@@ -143,10 +134,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
-    func checkAutoCheckForUpdates() {
-        updaterController.updater.automaticallyChecksForUpdates = Defaults.SUEnableAutomaticChecks.enabled
-    }
-    
     func accessibilityTrusted() {
         self.windowCalculationFactory = WindowCalculationFactory()
         self.windowManager = WindowManager()
@@ -172,7 +159,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         for app in runningApps {
             guard let bundleId = app.bundleIdentifier else { continue }
             if let conflictingAppName = conflictingAppsIds[bundleId] {
-                AlertUtil.oneButtonAlert(question: "Potential window manager conflict: \(conflictingAppName)", text: "Since \(conflictingAppName) might have some overlapping behavior with Rectangle, it's recommended that you either disable or quit \(conflictingAppName).")
+                AlertUtil.oneButtonAlert(question: "Potential window manager conflict: \(conflictingAppName)", text: "Since \(conflictingAppName) might have some overlapping behavior with SafeRectangle, it's recommended that you either disable or quit \(conflictingAppName).")
                 break
             }
         }
@@ -224,7 +211,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let displayNameString = displayNames.joined(separator: "\n")
         
         if !problemBundles.isEmpty {
-            AlertUtil.oneButtonAlert(question: "Known issues with installed applications", text: "\(displayNameString)\n\nThese applications have issues with the drag to screen edge to snap functionality in Rectangle.\n\nYou can either ignore the applications using the menu item in Rectangle, or disable drag to screen edge snapping in Rectangle preferences.")
+            AlertUtil.oneButtonAlert(question: "Known issues with installed applications", text: "\(displayNameString)\n\nThese applications have issues with the drag to screen edge to snap functionality in SafeRectangle.\n\nYou can either ignore the applications using the menu item in SafeRectangle, or disable drag to screen edge snapping in SafeRectangle preferences.")
             Defaults.notifiedOfProblemApps.enabled = true
         }
     }
@@ -283,7 +270,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func checkForUpdates(_ sender: Any) {
-        updaterController.checkForUpdates(sender)
+        updatesMenuItem.isEnabled = false
+        updatesMenuItem.title = "Updates Disabled".localized
     }
     
     @IBAction func authorizeAccessibility(_ sender: Any) {
@@ -302,9 +290,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 let killNotification = Notification.Name("killLauncher")
                 DistributedNotificationCenter.default().post(name: killNotification, object: Bundle.main.bundleIdentifier!)
             }
-            if !Defaults.SUHasLaunchedBefore {
+            if !Defaults.hasLaunchedBefore.enabled {
                 Defaults.launchOnLogin.enabled = true
             }
+            Defaults.hasLaunchedBefore.enabled = true
             
             // Even if we are already set up to launch on login, setting it again since macOS can be buggy with this type of launch on login.
             if Defaults.launchOnLogin.enabled {
@@ -615,105 +604,4 @@ extension AppDelegate: NSWindowDelegate {
         NSApp.abortModal()
     }
     
-}
-
-extension AppDelegate {
-    func application(_ application: NSApplication, open urls: [URL]) {
-        if NSWorkspace.shared.frontmostApplication == NSRunningApplication.current {
-            prevActiveApp?.activate()
-        }
-        DispatchQueue.main.async {
-            
-            func getUrlName(_ name: String) -> String {
-                return name.map { $0.isUppercase ? "-" + $0.lowercased() : String($0) }.joined()
-            }
-            
-            func extractBundleIdParameter(fromComponents components: URLComponents) -> String? {
-                (components.queryItems?.first { $0.name == "app-bundle-id" })?.value ?? ApplicationToggle.frontAppId
-            }
-            
-            func isValidParameter(bundleId: String?) -> Bool {
-                let isValid = bundleId?.isEmpty != true
-                if !isValid {
-                    Logger.log("Received an empty app-bundle-id parameter. Either pass a valid app bundle id or remove the parameter.")
-                }
-                return isValid
-            }
-            
-            func confirmExecuteTask(action: String, bundleId: String) -> Bool {
-                // Defense-in-depth: any web page or another app can trigger the
-                // `rectangle://execute-task=ignore-app` URL with an arbitrary
-                // bundle-id. Without confirmation this silently mutates
-                // Rectangle's `disabledApps` defaults. Skip the prompt only
-                // when Rectangle itself is frontmost (i.e. the user almost
-                // certainly clicked this from inside Rectangle's own UI).
-                if NSWorkspace.shared.frontmostApplication == NSRunningApplication.current {
-                    return true
-                }
-                let alert = NSAlert()
-                alert.alertStyle = .warning
-                alert.messageText = "Allow Rectangle URL action?".localized
-                alert.informativeText = String(format: "An external source asked Rectangle to perform \"%@\" on app bundle id \"%@\". Allow?".localized, action, bundleId)
-                alert.addButton(withTitle: "Allow".localized)
-                alert.addButton(withTitle: "Cancel".localized)
-                NSApp.activate(ignoringOtherApps: true)
-                return alert.runModal() == .alertFirstButtonReturn
-            }
-            
-            for url in urls {
-                guard
-                    let components = URLComponents(url: url, resolvingAgainstBaseURL: true),
-                    components.path.isEmpty
-                else {
-                    continue
-                }
-                    
-                let name = (components.queryItems?.first { $0.name == "name" })?.value
-                switch (components.host, name) {
-                case ("execute-action", _):
-                    let action = (WindowAction.active.first { windowAction in
-                        if let aliasName = windowAction.aliasName, getUrlName(aliasName) == name {
-                            return true
-                        }
-                        return getUrlName(windowAction.name) == name
-                    })
-                    action?.postUrl()
-                case ("execute-task", "ignore-app"):
-                    let bundleId = extractBundleIdParameter(fromComponents: components)
-                    guard isValidParameter(bundleId: bundleId), let bundleId else { continue }
-                    guard confirmExecuteTask(action: "ignore-app", bundleId: bundleId) else { continue }
-                    self.applicationToggle.disableApp(appBundleId: bundleId)
-                case ("execute-task", "unignore-app"):
-                    let bundleId = extractBundleIdParameter(fromComponents: components)
-                    guard isValidParameter(bundleId: bundleId), let bundleId else { continue }
-                    guard confirmExecuteTask(action: "unignore-app", bundleId: bundleId) else { continue }
-                    self.applicationToggle.enableApp(appBundleId: bundleId)
-                default:
-                    continue
-                }
-            }
-        }
-    }
-}
-
-extension AppDelegate: SPUStandardUserDriverDelegate {
-    
-    var supportsGentleScheduledUpdateReminders: Bool {
-        true
-    }
-
-    func standardUserDriverShouldHandleShowingScheduledUpdate(_ update: SUAppcastItem, andInImmediateFocus immediateFocus: Bool) -> Bool {
-        if immediateFocus {
-            return true
-        }
-        
-        self.hasPendingUpdate = true
-        updatesMenuItem.title = "Update Available…".localized
-        return false
-    }
-    
-    func standardUserDriverWillFinishUpdateSession() {
-        self.hasPendingUpdate = false
-        updatesMenuItem.title = "Check for Updates…".localized(key: "HIK-3r-i7E.title")
-    }
 }

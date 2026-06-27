@@ -4,6 +4,7 @@ import Cocoa
 
 class Defaults {
     static let launchOnLogin = BoolDefault(key: "launchOnLogin")
+    static let hasLaunchedBefore = BoolDefault(key: "hasLaunchedBefore")
     static let disabledApps = StringDefault(key: "disabledApps")
     static let hideMenuBarIcon = BoolDefault(key: "hideMenubarIcon")
     static let alternateDefaultShortcuts = BoolDefault(key: "alternateDefaultShortcuts") // switch to magnet defaults
@@ -45,12 +46,10 @@ class Defaults {
     static let installVersion = StringDefault(key: "installVersion")
     static let showAllActionsInMenu = OptionalBoolDefault(key: "showAllActionsInMenu")
     static let showAdditionalSizesInMenu = OptionalBoolDefault(key: "showAdditionalSizesInMenu")
-    static var SUHasLaunchedBefore: Bool { UserDefaults.standard.bool(forKey: "SUHasLaunchedBefore") }
     static let footprintAlpha = FloatDefault(key: "footprintAlpha", defaultValue: 0.3)
     static let footprintBorderWidth = FloatDefault(key: "footprintBorderWidth", defaultValue: 2)
     static let footprintFade = OptionalBoolDefault(key: "footprintFade")
     static let footprintColor = JSONDefault<CodableColor>(key: "footprintColor")
-    static let SUEnableAutomaticChecks = BoolDefault(key: "SUEnableAutomaticChecks")
     static let todo = OptionalBoolDefault(key: "todo")
     static let todoMode = BoolDefault(key: "todoMode")
     static let todoApplication = StringDefault(key: "todoApplication")
@@ -144,7 +143,6 @@ class Defaults {
         footprintBorderWidth,
         footprintFade,
         footprintColor,
-        SUEnableAutomaticChecks,
         todo,
         todoMode,
         todoApplication,
