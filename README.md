@@ -46,7 +46,51 @@ management through Accessibility does not work well under a strict app sandbox.
 That means this fork removes network code; it does not rely on an operating
 system network entitlement to enforce a hard network ban.
 
-## Build
+## Quick Setup
+
+Download the latest ZIP from:
+
+```text
+https://github.com/bernawil/SafeRectangle/releases/latest
+```
+
+Download both files:
+
+- `SafeRectangle-v0.96-build102.zip`
+- `SafeRectangle-v0.96-build102.zip.sha256`
+
+Verify the download:
+
+```sh
+shasum -a 256 -c SafeRectangle-v0.96-build102.zip.sha256
+```
+
+Install it:
+
+```sh
+unzip SafeRectangle-v0.96-build102.zip
+pkill -x Rectangle 2>/dev/null || true
+pkill -x RectangleLauncher 2>/dev/null || true
+pkill -x SafeRectangle 2>/dev/null || true
+pkill -x SafeRectangleLauncher 2>/dev/null || true
+rm -rf /Applications/Rectangle.app
+rm -rf /Applications/SafeRectangle.app
+ditto SafeRectangle.app /Applications/SafeRectangle.app
+xattr -dr com.apple.quarantine /Applications/SafeRectangle.app 2>/dev/null || true
+open /Applications/SafeRectangle.app
+```
+
+Then enable SafeRectangle in:
+
+```text
+System Settings -> Privacy & Security -> Accessibility
+```
+
+The release build is ad-hoc signed and intentionally has no updater. It is not
+Developer ID signed or Apple-notarized, so macOS may require explicit approval
+the first time it is opened.
+
+## Build From Source
 
 ```sh
 xcodebuild \
@@ -67,7 +111,7 @@ The app is produced at:
 build/SafeRectangleDerivedData/Build/Products/Release/SafeRectangle.app
 ```
 
-For local hardened ad-hoc signing after the build:
+Apply local hardened ad-hoc signing after the build:
 
 ```sh
 codesign --force --sign - --options runtime --timestamp=none \
@@ -79,9 +123,12 @@ codesign --force --sign - --options runtime --timestamp=none \
   build/SafeRectangleDerivedData/Build/Products/Release/SafeRectangle.app
 ```
 
-## Install
+Install the local build:
 
 ```sh
+pkill -x SafeRectangle 2>/dev/null || true
+pkill -x SafeRectangleLauncher 2>/dev/null || true
+rm -rf /Applications/SafeRectangle.app
 ditto build/SafeRectangleDerivedData/Build/Products/Release/SafeRectangle.app /Applications/SafeRectangle.app
 xattr -dr com.apple.quarantine /Applications/SafeRectangle.app 2>/dev/null || true
 open /Applications/SafeRectangle.app
